@@ -33,68 +33,68 @@
     <main>
       <section id="About">
         <h2>About</h2>
-        <div>
-          <p>
+        <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
             quo provident vitae quisquam quae praesentium, similique itaque
             dolor hic at eos consequatur, molestias, voluptatum qui eum
             delectus. Cupiditate, itaque accusamus
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
             aliquam repellendus eveniet eligendi molestias, natus sequi ipsa est
             ratione explicabo porro assumenda saepe, placeat enim nostrum
             corporis doloremque illum temporibus.
           </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
           <img src="./Assets/about.jpg" alt="" />
         </figure>
+        </div>
       </section>
+
       <section id="Discord">
         <h2>Discord</h2>
-        <figure>
+        <div class="section__description">
+        <figure class="about__img--wrapper">
           <img src="./Assets/discord.png" alt="Discord" />
         </figure>
         <div>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur
             perspiciatis exercitationem quasi, eveniet voluptatibus doloremque
             libero eum aliquid quibusdam ex ratione excepturi, veniam illo
             rerum! Rerum beatae provident voluptatibus!
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             eos exercitationem quidem dolorem, saepe, hic fuga quasi quod
             repudiandae ratione earum tempore quia est iste omnis, optio
             inventore veniam non!
           </p>
         </div>
+        </div>
       </section>
+
       <section id="Contact">
         <h2>Contact</h2>
         <form action="">
             <span>Email</span>
-            <input type="text" placeholder="JohnDoe@Example.com" />
+            <input type="email" placeholder="JohnDoe@Example.com" />
             <span>Message</span>
-            <textarea>
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Your message here..."
-            </textarea>
-            <button type="submit">Submit</button>
+            <textarea type="text" placeholder="Cool website, lets get connected!"></textarea>
+            <button>Submit</button>
         </form>
       </section>
     </main>
 
-    <footer>
-     <img src="./Assets/FES.svg" alt="">
-     <div>
-        <a href="About">About</a>
-        <a href="Discord">Discord</a>
-        <a href="Contact">Contact</a>
+    <footer">
+     <img class="footer__logo" src="./Assets/FES.svg" alt="">
+     <div class="footer__links">
+        <a class="footer__link" href="About">About</a>
+        <a class="footer__link" href="Discord">Discord</a>
+        <a class="footer__link" href="Contact">Contact</a>
      </div>
      <p>Copyright Frontend Simplified</p>
     </footer>
