@@ -11,12 +11,13 @@ nav{
     height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 16px;
     background-color: #cafdff;
 }
 
 header{
-    background-color: #cafdff;
+    background-color: #eadcff;
     height: calc(100vh - 70px);
     padding: 24px;
     display: flex;
@@ -38,6 +39,7 @@ button{
     color: white;
     border: none;
     padding: 8px 16px;
+    font-size: 24px;
     cursor: pointer;
 }
 
@@ -74,7 +76,7 @@ li{
 #discord,
 #contact,
 #footer{
-    padding: 40px 0;
+    padding: 48px 0;
 }
 
 /*
@@ -84,7 +86,7 @@ ABOUT
 */
 
  #about{
-    background-color: #faffdc ;
+    background-color: #f8ffdc;
  }
 
  h2{
@@ -117,7 +119,7 @@ ABOUT
 }
 
  .section__description--para{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
  }
@@ -129,7 +131,7 @@ DISCORD
 */
 
 #discord{
-    background-color: #cefeff;
+    background-color: #ceffef;
 }
 
 /*
