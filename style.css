@@ -72,9 +72,9 @@ li{
     
 } 
 
-#about,
-#discord,
-#contact,
+#About,
+#Discord,
+#Contact,
 #footer{
     padding: 48px 0;
 }
@@ -85,7 +85,7 @@ ABOUT
 
 */
 
- #about{
+ #About{
     background-color: #f8ffdc;
  }
 
@@ -130,7 +130,7 @@ DISCORD
 
 */
 
-#discord{
+#Discord{
     background-color: #ceffef;
 }
 
@@ -140,7 +140,7 @@ CONTACT
 
 */
 
-#contact{
+#Contact{
     background-color: #dce9ff ;
 }
 
