@@ -118,7 +118,7 @@ ABOUT
 
  .section__description--para{
     font-size: 24px;
-    line-height: 1.5
+    line-height: 1.5;
     margin-bottom: 24px;
  }
 
@@ -152,7 +152,7 @@ form{
 }
 
 input, textarea{
-    margin-bottom: 24px
+    margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
 }
@@ -206,7 +206,7 @@ footer{
     }
 
     .subheader{
-        text-align: center
+        text-align: center;
         font-size: 28px;
     }
 
